@@ -1,0 +1,56 @@
+/*Fonts Part*/
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato:ital,wght@1,300&family=Oswald:wght@200&display=swap');
+
+body
+{ 
+  font-family: 'Lato', sans-serif;
+}
+
+/*Style*/
+
+header{   
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: white;
+    background-color: aquamarine;
+}
+
+main{
+    color: brown;
+    text-shadow: 1px 1px white;
+    background-color: aquamarine;
+}
+
+main li{
+
+    color: black;
+    font-size: 14px;
+}
+
+footer{
+
+    font-size: 10px;
+    color:teal;
+}
+
+button{
+
+    font-size: 10px;
+    color: brown;
+
+}
+
+
+/*Results Table*/
+#results{
+
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.result{
+    font-size: 14px;
+    width: 35%;
+    border: solid black;
+}
